@@ -1,0 +1,27 @@
+{
+  "name": "packagereadme",
+  "version": "0.0.0",
+  "description": "return the readme as a string for the current package based on closest package.json in the specified or parent directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-packagereadme.git"
+  },
+  "keywords": [
+    "readme",
+    "module",
+    "find"
+  ],
+  "author": "Ryan Day",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "packageroot": "0.0.0"
+  },
+  "devDependencies": {
+    "tape": "~0.3.3"
+  }
+}
