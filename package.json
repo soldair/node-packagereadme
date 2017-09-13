@@ -1,6 +1,6 @@
 {
   "name": "packagereadme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "return the readme as a string for the current package based on closest package.json in the specified or parent directory",
   "main": "index.js",
   "scripts": {
